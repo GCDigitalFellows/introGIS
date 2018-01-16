@@ -1,3 +1,5 @@
+[<<< Previous](linesto.md)  | [Next >>>](more.md)  
+
 # Geoprocessing Tools: Difference
 
 Now we are ready to confront the hydrography buffer versus the elevation. To do this, let’s use a tool called “Difference” in the Vector/Geoprocessing Tools menu. Difference is a function like a geographic substraction: Wherever the two layers meet, the input layer will have substracted whatever trespasses the inner boundaries of the Difference layer. So let’s use the Hydro Buffer as the input and the Elevation Polygon as the Difference layer. Be sure to check the “Ignore invalid input features” so that the operation goes smoothly.
@@ -9,3 +11,5 @@ Now we have a new layer called Difference. We are approaching the end of this br
 ![Rough Final Result after Clipping](images/differ2.png)
 
 And there we have it. The orange area is the Vulnerable Area. If we look at the attribute table of this layer, we can analyze the characteristics of the vulnerable population, according to the attributes that already existed in the original Census Blocks layer, that is: Population, Age, Race and Gender.
+
+[<<< Previous](linesto.md)  | [Next >>>](more.md)  

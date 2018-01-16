@@ -1,3 +1,5 @@
+[<<< Previous](setup.md)  | [Next >>>](layerpro.md)  
+
 # Adding a Vector Layer
 
 Once you finish installing QGIS and downloading the required layers, go ahead and open the QGIS Desktop app. After loading time, you should see something like this:
@@ -13,3 +15,5 @@ Whenever you add a layer to your project, it will be shown in the Layers Panel. 
 Here, click on Browse, go in the BLOCKS folder and select the 061blk00s.zip file directly. When you select it and click on Open, you should get this:
 
 ![Blocks Layer Added](images/layer3.png)
+
+[<<< Previous](setup.md)  | [Next >>>](layerpro.md)  
